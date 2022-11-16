@@ -1,0 +1,36 @@
+.modal_active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    color: #003153;
+    font-family: "Arial Black";
+    background: #000;
+    opacity: 0.6;
+    z-index: 1;
+}
+.modal_active__panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+.modal_active__btn{
+    background: #002F55;
+    border-radius: 0.7em;
+    padding: 0.8em;
+    margin: 0 0.5em;
+    font-size: 1em;
+    font-family: "Arial Black";
+    color: #FAEBD7;
+}
+.modal_active__btn:hover{
+    background: #423189;
+    color: #CD9575;
+}

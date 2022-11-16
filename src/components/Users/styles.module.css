@@ -1,0 +1,41 @@
+.users{
+
+}
+.users__lists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.users__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 2em;
+
+}
+
+.users_hidden {
+    display: none;
+}
+
+.users__btn{
+    display: block;
+    min-width: 7.5em;
+    min-height: 1.9em;
+    margin: 0.6em auto 1.25em auto;
+    padding:  0.9em 1.3em;
+    background: none;
+    border: 1px solid #786450;
+    border-radius: 1.3em;
+    font-size: 0.75em;
+    font-weight: 600;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+    color: brown;
+}
+.users__btn:hover {
+    background:  #786450;
+    color: #fff;
+}
